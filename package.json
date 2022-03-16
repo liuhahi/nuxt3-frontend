@@ -15,9 +15,11 @@
     "@storybook/vue3": "^6.4.19",
     "babel-loader": "^8.2.3",
     "nuxt3": "latest",
+    "storybook-addon-designs": "^6.2.1",
     "vue-loader": "^16.8.3"
   },
   "dependencies": {
+    "carbone-sdk-js": "^1.1.7",
     "element-plus": "^2.0.4",
     "postcss": "^8.4.7"
   }
