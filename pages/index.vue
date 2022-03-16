@@ -1,29 +1,36 @@
 <template>
   <!-- <NuxtLink to="/">Home page</NuxtLink> -->
-  <div class="background">
-    <div class="left">
-      <span class="Statistics">
-        Statistics
-      </span>
-      <div class="Rectangle-96">
-        <span class="Total-Records">
-           Total Records
+  <div class="wrapper">
+    <div class="background">
+      <div class="left">
+        <span class="Statistics">
+          Statistics
         </span>
+        <div class="Rectangle-96">
+          <span class="Total-Records">
+            Total Records
+          </span>
+        </div>
       </div>
-    </div>
-    <div class="right">
+      <div class="right">
 
+      </div>
     </div>
   </div>
 </template>
 <script>
 </script>
 <style scoped>
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+    background: linear-gradient(to left, #03d7bb, #066f97);
+}
 .background {
-  /* width: 100%;
-  height: 100%; */
-  padding: 1rem;
-  background: linear-gradient(to left, #03d7bb, #066f97);
+  width: 100%;
+  height: 100%;
+  padding:1rem;
+  /* background: linear-gradient(to left, #03d7bb, #066f97); */
 }
 .Total-Records {
   font-family: Poppins;
