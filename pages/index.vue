@@ -13,12 +13,15 @@
         </div>
       </div>
       <div class="right">
-
+        <div>
+          <img :src="config.SCANTIST_LOGO_PATH">
+        </div>
       </div>
     </div>
   </div>
 </template>
-<script>
+<script setup>
+  const config = useRuntimeConfig();
 </script>
 <style scoped>
 .wrapper{

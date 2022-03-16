@@ -8,4 +8,7 @@ export default defineNuxtConfig({
     // CSS file in the project
     '@/assets/styles/main.css',
   ],
+  publicRuntimeConfig: {
+    SCANTIST_LOGO_PATH: process.env.SCANTIST_LOGO_PATH
+  },  
 })
