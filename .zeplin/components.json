@@ -1,0 +1,14 @@
+{
+  "projects": [],
+  "styleguides": ["5cd486b18a64c1414be004fb"],
+  "components": [
+    {
+      "path": "src/components/Button.vue",
+      "zeplinIds": ["623148972b45d13d7d12b5f3&coid=62314a3209669d4c6aafe9f6"]
+    }
+  ],
+  "github": {
+    "repository": "liuhahi/nuxt3-frontend",
+    "branch": "feature-storybook"
+  }
+}

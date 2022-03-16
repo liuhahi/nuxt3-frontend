@@ -3,33 +3,26 @@
   <div class="wrapper">
     <div class="background">
       <div class="left">
-        <span class="Statistics">
-          Statistics
-        </span>
+        <span class="Statistics"> Statistics </span>
         <div class="Rectangle-96">
-          <span class="Total-Records">
-            Total Records
-          </span>
+          <span class="Total-Records"> Total Records </span>
         </div>
       </div>
-      <div class="right">
-
-      </div>
+      <div class="right"></div>
     </div>
   </div>
 </template>
-<script>
-</script>
+<script></script>
 <style scoped>
-.wrapper{
+.wrapper {
   height: 100vh;
   width: 100vw;
-    background: linear-gradient(to left, #03d7bb, #066f97);
+  background: linear-gradient(to left, #03d7bb, #066f97);
 }
 .background {
   width: 100%;
   height: 100%;
-  padding:1rem;
+  padding: 1rem;
   /* background: linear-gradient(to left, #03d7bb, #066f97); */
 }
 .Total-Records {
@@ -43,7 +36,7 @@
   text-align: left;
   color: #fff;
 }
-.left{
+.left {
   display: flex;
   flex-direction: column;
   width: 50%;
