@@ -26,7 +26,6 @@
   width: 100vw;
   height: 100vh;
   padding: 1rem;
-  max-width: 1500px;
   background: linear-gradient(to left, #03d7bb, #066f97);
 }
 .Total-Records {
