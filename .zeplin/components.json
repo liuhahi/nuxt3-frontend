@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    {
+      "name": "zeplin-cli-connect-plugin-vue"
+    }
+  ],
+  "projects": ["623148972b45d13d7d12b5f3"],
+  "styleguides": ["623196e4ef050e3f5d729ace"],
+  "components": [
+    {
+      "path": "stories/Button.vue",
+      "zeplinIds": ["62314a3209669d4c6aafe9f6"]
+    }
+  ],
+  "github": {
+    "repository": "liuhahi/nuxt3-frontend",
+    "branch": "feature-storybook"
+  }
+}

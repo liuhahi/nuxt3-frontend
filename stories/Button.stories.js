@@ -5,6 +5,9 @@ export default {
   title: 'Example/Button',
   component: MyButton,
   // More on argTypes: https://storybook.js.org/docs/vue/api/argtypes
+  parameters: {
+    zeplinLink: "https://app.zeplin.io/project/5e7a6d478204d59183a1c76b/styleguide/components?coid=5eac833c5f1f2f1cb19f4f19",
+  },
   argTypes: {
     backgroundColor: { control: 'color' },
     onClick: {},

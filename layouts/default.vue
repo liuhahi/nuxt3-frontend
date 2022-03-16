@@ -4,7 +4,9 @@
       <title>Welcome to home page</title>
     </head>
   </Html>
-  <Header/>
-  <Footer/>
+  <!-- <Header/>
+  <Footer/> -->
   <slot/>
 </template>
+<style scoped>
+</style>
