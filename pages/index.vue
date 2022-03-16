@@ -10,14 +10,15 @@
       </div>
       <div class="right">
         <div>
-          <img :src="config.SCANTIST_LOGO_PATH">
+          <img :src="config.SCANTIST_LOGO_PATH" />
+          <h1>{{ config.SCANTIST_LOGO_PATH }}</h1>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script setup>
-  const config = useRuntimeConfig();
+const config = useRuntimeConfig();
 </script>
 <style scoped>
 .wrapper {

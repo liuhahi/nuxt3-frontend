@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from "nuxt3";
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -6,9 +6,9 @@ export default defineNuxtConfig({
 
   css: [
     // CSS file in the project
-    '@/assets/styles/main.css',
+    "@/assets/styles/main.css",
   ],
   publicRuntimeConfig: {
-    SCANTIST_LOGO_PATH: process.env.SCANTIST_LOGO_PATH
-  },  
-})
+    SCANTIST_LOGO_PATH: process.env.SCANTIST_LOGO_PATH,
+  },
+});

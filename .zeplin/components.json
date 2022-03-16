@@ -1,10 +1,15 @@
 {
-  "projects": [],
-  "styleguides": ["5cd486b18a64c1414be004fb"],
+  "plugins": [
+    {
+      "name": "zeplin-cli-connect-plugin-vue"
+    }
+  ],
+  "projects": ["623148972b45d13d7d12b5f3"],
+  "styleguides": ["623196e4ef050e3f5d729ace"],
   "components": [
     {
-      "path": "src/components/Button.vue",
-      "zeplinIds": ["623148972b45d13d7d12b5f3&coid=62314a3209669d4c6aafe9f6"]
+      "path": "stories/Button.vue",
+      "zeplinIds": ["62314a3209669d4c6aafe9f6"]
     }
   ],
   "github": {
