@@ -7,5 +7,5 @@ export default defineNuxtConfig({
   css: [
     // CSS file in the project
     '@/assets/styles/main.css',
-  ]
+  ],
 })
