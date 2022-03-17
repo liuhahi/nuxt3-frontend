@@ -1,3 +1,6 @@
+const path = require('path');
+const { config } = require('process');
+
 module.exports = {
   "stories": [
     "../stories/**/*.stories.mdx",
@@ -8,5 +11,14 @@ module.exports = {
     "@storybook/addon-essentials",
     "storybook-zeplin/register"
   ],
-  "framework": "@storybook/vue3"
+  "framework": "@storybook/vue3",
+  webpackFinal: async (config, { configType }) => {
+    config.module.rules.push({
+      test: /\.mjs$/,
+      include: /node_modules/,
+      type: 'javascript/auto'
+    })
+    return config;
+  }
+
 }
