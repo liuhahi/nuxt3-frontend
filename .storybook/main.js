@@ -1,12 +1,31 @@
+const path = require("path");
+const { config } = require("process");
+
 module.exports = {
-  "stories": [
+  stories: [
     "../stories/**/*.stories.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+    "../stories/**/*.stories.@(js|jsx|ts|tsx)",
   ],
-  "addons": [
+  addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "storybook-zeplin/register"
+    "storybook-zeplin/register",
+    {
+      name: "storybook-addon-sass-postcss",
+      options: {
+        postcssLoaderOptions: {
+          implementation: require("postcss"),
+        },
+      },
+    },
   ],
-  "framework": "@storybook/vue3"
-}
+  framework: "@storybook/vue3",
+  webpackFinal: async (config, { configType }) => {
+    config.module.rules.push({
+      test: /\.mjs$/,
+      include: /node_modules/,
+      type: "javascript/auto",
+    });
+    return config;
+  },
+};
