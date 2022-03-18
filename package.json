@@ -18,11 +18,12 @@
     "@zeplin/cli": "^2.0.0",
     "babel-loader": "^8.2.3",
     "nuxt3": "latest",
+    "storybook-addon-sass-postcss": "^0.1.0",
     "storybook-zeplin": "^1.7.2",
     "vue-loader": "^16.8.3"
   },
   "dependencies": {
-    "element-plus": "^2.0.4",
+    "element-plus": "^2.1.4",
     "postcss": "^8.4.7",
     "zeplin-cli-connect-plugin-vue": "^1.1.0"
   }

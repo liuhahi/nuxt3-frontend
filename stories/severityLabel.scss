@@ -1,0 +1,35 @@
+.severity-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 30px;
+  height: 24px;
+}
+.severity-label--critical {
+  color: white;
+  background-color: #1ea7fd;
+}
+.severity-label--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.severity-label--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.severity-label--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.severity-label--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

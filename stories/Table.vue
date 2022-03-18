@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import "./table.css";
+import "./table.scss";
 import { reactive, computed } from "vue";
 
 export default {

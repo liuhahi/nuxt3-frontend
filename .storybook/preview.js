@@ -1,6 +1,6 @@
 import { app } from "@storybook/vue3";
 import ElementPlus from "element-plus";
-import "element-plus/dist/index.css";
+import "./element-plus.scss";
 
 app.use(ElementPlus);
 

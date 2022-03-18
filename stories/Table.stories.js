@@ -18,13 +18,30 @@ const Template = (args) => ({
   template: '<my-table :tableData="tableData"/>',
 });
 
-export const Sorted = Template.bind({});
-Sorted.args = {
+export const ComponentTable = Template.bind({});
+ComponentTable.args = {
   tableData: [
     {
-      date: "2020-02-02",
-      name: "office 1",
-      address: "pandan loop",
+      component: "jackson-databind",
+      version: "2.2.2",
+      language: "Java",
+      vulnerabilities: {
+        critical: 0,
+        high: 32,
+        medium: 32,
+        low: 1,
+        none: 0,
+      },
+      licenses: [
+        {
+          name: "Apache License 2.0",
+          id: 1,
+        },
+        {
+          name: "MIT License 2.0",
+          id: 2,
+        }
+      ]
     },
     {
       date: "2022-01-02",

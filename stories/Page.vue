@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import './page.css';
+import './page.scss';
 import MyHeader from './Header.vue';
 
 export default {
